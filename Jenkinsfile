@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...Prod branch'
+                echo 'Building.1st..Prod branch'
                 // Add build steps like: sh 'make build'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing...Prod branch'
+                echo 'Testing.1st..Prod branch'
                 // Add test steps like: sh 'make test'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying... Prod branch'
+                echo 'Deploying..1st. Prod branch'
                 // Add deploy steps like: sh 'make deploy'
             }
         }
